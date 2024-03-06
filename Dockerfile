@@ -2,9 +2,9 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git
 
-RUN git clone https://github.com/rendergoat/somthing.git
+RUN git clone https://github.com/rendergoat/dockerthingproject-school.git
 
-WORKDIR /<the forked repository name>
+WORKDIR /dockerthingproject-school
 
 RUN npm install
 
